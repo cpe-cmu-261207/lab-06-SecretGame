@@ -8,12 +8,17 @@ import HisSelect from './components/HisSelect';
 
 function App() {
   return (
-    <Router>
-
+    <Router >
       <Navbar />
+      
 
       <Switch>
-        <Route path="/current">
+
+        <Route path="/" exact>
+          <Current />
+        </Route>
+
+        <Route path="/current" >
           <Current />
         </Route>
 

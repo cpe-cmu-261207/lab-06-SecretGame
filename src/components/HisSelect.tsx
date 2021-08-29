@@ -1,5 +1,4 @@
-import {Link, Route, Switch } from 'react-router-dom'
-import Result from './Result'
+import {Link } from 'react-router-dom'
 
 const HisSelect = () => {
     return(
