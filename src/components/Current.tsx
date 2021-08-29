@@ -25,8 +25,8 @@ const Current = () =>{
         try{
             setLoading(true)
             const resp = await axios.get<TaskType>('https://api.coindesk.com/v1/bpi/currentprice/thb.json')
-            setTask(resp.data)
             setLoading(false)
+            setTask(resp.data)
         }
         catch(err){
             setLoading(false)
