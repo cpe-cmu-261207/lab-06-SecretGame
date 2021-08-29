@@ -42,10 +42,10 @@ const Result = () =>{
             }
             return (
                 <div className='text-center space-y-3'>
-                    <p className='text-xl font-semibold'> ( From {start} To {end}) </p>
+                    <p className='text-xl font-semibold'> ( From {start} To {end} ) </p>
                     <ul>
                         {
-                            Array.map(arr => <li className="text-xl">{arr[0]}-{arr[1].toLocaleString()}</li>)
+                            Array.map(arr => <li className="text-xl">{arr[0]} - {arr[1].toLocaleString()} THB</li>)
                         }
                     </ul>
                 </div>

@@ -12,7 +12,7 @@ const HisSelect = () => {
         if(start === null || end === null){
             alert("Please select start date and end date correctly")
         }
-        else if(start >= end){
+        else if(start > end){
             alert("Please select start date and end date correctly")
         }
         else{
